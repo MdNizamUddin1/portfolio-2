@@ -14,15 +14,15 @@ body{
     background-size: cover;
     padding: 100px 0px;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#hero-half-top{
-    margin-top: 200px;
-}
+
 .hero-half{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
-    float: left;
 }
 .hero-half h2{
     font-size: 50px;
@@ -55,15 +55,14 @@ body{
     background-size: cover;
     padding: 100px 0px;
     height: 100vh;
-}
-#about-half-top{
-    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about-half{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
-    float: left;
 }
 .about-half h2{
     font-size: 50px;
@@ -97,6 +96,11 @@ body{
     height: 80vh;
     padding: 100px 0px;
 }
+.leatest-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .work-section h2{
     font-size: 50px;
     font-weight: 700;
@@ -107,7 +111,6 @@ body{
     width: 30%;
     margin-left: 2%;
     padding-left: 1%;
-    float: left;
 }
 .work-post img{
     width: 100%;
